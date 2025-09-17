@@ -1,0 +1,19 @@
+//factorial 
+//return tipe
+
+#include <stdio.h>
+void fact(int *n)
+{
+    int f=1,i;
+    for(i=1;i<=*n;i++) f*=i;
+    printf("%d",f);
+}
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    fact(&n);
+}
+
+
+
